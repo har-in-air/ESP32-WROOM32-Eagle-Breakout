@@ -15,8 +15,9 @@ Ensured adequate power planes and heatsinking for the WROOM-32 module.
 Added multiple decoupling capacitors, including optional large low ESR tantalum (e.g. 330uF 6.3V). This will prevent brownout resets
 when running off power supplies with limited current capacity.
 
-Added two voltage regulator options : SOT-89 LDO regulator (e.g. HT7833 if running off USB, HT7333 if running off Lipoly battery),
-or SMPS regulator (TPS82140) for applications where efficiency is important and the source voltage can be up to 17V.
+Added two voltage regulator options : 
+1. SOT-89 LDO regulator (e.g. HT7833 if running off USB, HT7333 if running off Lipoly battery), OR
+2. SMPS regulator (TPS82140) when efficiency is important and the source voltage can be up to 17V
 
 LED on GPIO15. Pull-down resistor on IO2. Pull-up resistor on IO0.
 
@@ -26,7 +27,7 @@ For testing/programming, if your USB-UART dongle 3.3V pin can provide enough pow
 
 The buttons, programming interface and regulator input pins have been placed on the edge to facilitate using the board in a case.
 
-Board dimensions : 35.5mm x 45.5mm
+Board dimensions : ~ 36mm x 46mm
 
 ## Assembly notes
 
