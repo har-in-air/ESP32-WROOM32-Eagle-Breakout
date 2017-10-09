@@ -27,6 +27,7 @@ add one of the regulator options, provide power via VIN (VB) and leave R3 open.
 
 The buttons, programming interface and regulator input pins have been placed on the edge to facilitate using the board in a case.
 
+Board dimensions : 35.5mm x 45.5mm
 
 ## Assembly notes
 
