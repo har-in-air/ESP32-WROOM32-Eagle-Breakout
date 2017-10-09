@@ -29,6 +29,8 @@ The buttons, programming interface and regulator input pins have been placed on 
 
 Board dimensions : ~ 36mm x 46mm
 
+Resistors are 0603 package. Capacitors are 0603 except for C3 (0805) and C6 (tantalum, Vishay-C).
+
 ## Assembly notes
 
 This layout is meant for manual assembly. I have placed vias in pads for shortest path to the power planes.  The TPS82140 will have 
