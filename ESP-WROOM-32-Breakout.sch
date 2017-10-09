@@ -8056,16 +8056,6 @@ chip</description>
 <text x="5.08" y="20.32" size="1.778" layer="94">&gt;VALUE</text>
 <pin name="PAD" x="10.16" y="-10.16" visible="pin" length="middle" rot="R90"/>
 </symbol>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.27" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="96" font="vector">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="CAPACITOR">
 <wire x1="0" y1="0.762" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
@@ -8209,98 +8199,6 @@ chip</description>
 <connect gate="G$1" pin="VIN" pad="P$2"/>
 <connect gate="G$1" pin="VOUTA" pad="P$4"/>
 <connect gate="G$1" pin="VOUTB" pad="P$5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>&lt;p&gt;&lt;b&gt;Resistors&lt;/b&gt;&lt;/p&gt;
-&lt;b&gt;0402&lt;/b&gt; - 0402 Surface Mount Package
-&lt;ul&gt;
-&lt;li&gt;10.0K 1% 1/16W [Digikey: 311-10.0KLRTR-ND]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;0603&lt;/b&gt; - 0603 Surface Mount Package&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;0 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;15 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;33 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;49.9 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;100 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;150 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;240 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;390 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;560 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;750 Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;1.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;1.5K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;2.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;4.7K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;10.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;20.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;33.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;100.0K Ohm 1/10 Watt 1% Resistor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;0805&lt;/b&gt; - 0805 Surface Mount Package
-&lt;ul&gt;
-&lt;li&gt;0 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;33 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;100 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;150 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;200 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;240 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;330 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;390 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;470 Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;1.0K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;1.5K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;2.0K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;4.7K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;5.1K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;5.6K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;10.0K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;22.0K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;33.0K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;li&gt;100K Ohm 1/8 Watt 1% Resistor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;b&gt;1206&lt;/b&gt; - 1206 Surface Mount Package&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0402" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8579,8 +8477,6 @@ chip</description>
 <part name="JP3" library="hari" deviceset="HEADER-1X2" device="ROUND"/>
 <part name="U$2" library="hari" deviceset="TPS82140" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R5" library="hari" deviceset="RESISTOR" device="0402" value="150K"/>
-<part name="R6" library="hari" deviceset="RESISTOR" device="0402" value="47K"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="hari" deviceset="CAP_CERAMIC" device="0603" value="3n3"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8597,6 +8493,8 @@ chip</description>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
 <part name="JP4" library="hari" deviceset="HEADER-1X1" device="ROUND"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="150K"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="47K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8646,8 +8544,6 @@ chip</description>
 <attribute name="VALUE" x="213.36" y="160.02" size="1.778" layer="94"/>
 </instance>
 <instance part="GND9" gate="1" x="218.44" y="129.54"/>
-<instance part="R5" gate="G$1" x="243.84" y="139.7" rot="R90"/>
-<instance part="R6" gate="G$1" x="248.92" y="144.78" rot="R180"/>
 <instance part="GND11" gate="1" x="254" y="134.62"/>
 <instance part="C7" gate="G$1" x="236.22" y="154.94" rot="R90"/>
 <instance part="GND12" gate="1" x="238.76" y="152.4"/>
@@ -8664,6 +8560,8 @@ chip</description>
 <instance part="GND13" gate="1" x="66.04" y="20.32"/>
 <instance part="C10" gate="G$1" x="238.76" y="116.84"/>
 <instance part="JP4" gate="G$1" x="91.44" y="40.64" rot="R270"/>
+<instance part="R8" gate="G$1" x="243.84" y="139.7" rot="R90"/>
+<instance part="R9" gate="G$1" x="248.92" y="144.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8749,9 +8647,9 @@ chip</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="254" y1="137.16" x2="254" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="P$2"/>
@@ -8830,7 +8728,6 @@ chip</description>
 <wire x1="228.6" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="119.38" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 <junction x="218.44" y="119.38"/>
-<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="134.62" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="134.62" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 <junction x="231.14" y="134.62"/>
@@ -8843,6 +8740,7 @@ chip</description>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
 <junction x="231.14" y="119.38"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
@@ -9275,9 +9173,9 @@ chip</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="FB"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <junction x="243.84" y="144.78"/>
 </segment>
 </net>
