@@ -22,7 +22,7 @@ LED on GPIO15. Pull-down resistor on IO2. Pull-up resistor on IO0.
 
 No USB-UART chip on-board, to minimize deep sleep power consumption.
 
-For testing/programming, if your USB-UART dongle can provide enough power, short R3 and do not populate the regulators. Otherwise,
+For testing/programming, if your USB-UART dongle 3.3V pin can provide enough power, short R3 and do not populate the regulators. Otherwise,
 add one of the regulator options, provide power via VIN (VB) and leave R3 open.
 
 The buttons, programming interface and regulator input pins have been placed on the edge to facilitate using the board in a case.
