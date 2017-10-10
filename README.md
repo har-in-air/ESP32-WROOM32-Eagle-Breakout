@@ -31,10 +31,9 @@ Pinout silkscreen on top AND bottom.
 
 Board dimensions : ~ 36mm x 46mm
 
-Resistors are 0603 package. Capacitors are 0603 except for C3 (0805) and C6 (tantalum, Vishay-C).
+Resistors are 0603 package. Capacitors are 0603 except for C6 (tantalum, Vishay-C). You can find suitable capacitors (0603 X5R, X7R) on Aliexpress and Ebay e.g. https://mcigicm.aliexpress.com/store/506373?spm=2114.10010108.0.0.15e3fdeesSP1Dd
 
 ## Assembly notes
 
 This layout is meant for manual assembly. I have placed vias in pads for shortest path to the power planes.  The TPS82140 will have 
-to be reflowed with the home-brew method of your choice - e.g. electric skillet. There's no need to risk reflowing the WROOM-32, just put 
-thermal paste on the ground pad before hand-soldering the module pins.
+to be reflowed with the home-brew method of your choice - e.g. electric skillet. There's no need to risk reflowing the WROOM-32, just put thermal paste on the ground pad before hand-soldering the module pins.
