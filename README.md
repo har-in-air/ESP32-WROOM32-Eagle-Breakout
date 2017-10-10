@@ -27,6 +27,8 @@ For testing/programming, if your USB-UART dongle 3.3V pin can provide enough pow
 
 The buttons, programming interface and regulator input pins have been placed on the edge to facilitate using the board in a case.
 
+Pinout silkscreen on top AND bottom.
+
 Board dimensions : ~ 36mm x 46mm
 
 Resistors are 0603 package. Capacitors are 0603 except for C3 (0805) and C6 (tantalum, Vishay-C).
