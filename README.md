@@ -33,6 +33,8 @@ Board dimensions : ~ 36mm x 46mm
 
 Resistors are 0603 package. Capacitors are 0603 except for C6 (tantalum, Vishay-C). You can find suitable capacitors (0603 X5R, X7R) on Aliexpress and Ebay e.g. https://mcigicm.aliexpress.com/store/506373?spm=2114.10010108.0.0.15e3fdeesSP1Dd
 
+The most inexpensive pcb prototyping service I've found is pcbway.com : 10 PCBs  (2-layer, < 100mm x 100mm ) for US$5 + shipping. Great quality, but in my experience, it takes about 4-5 weeks from order to delivery with the cheapest shipping option.
+
 ## Assembly notes
 
 This layout is meant for manual assembly. I have placed vias in pads for shortest path to the power planes.  The TPS82140 will have 
