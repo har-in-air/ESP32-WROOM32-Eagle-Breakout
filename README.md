@@ -12,8 +12,7 @@ Pinout on the board corresponds to the WROOM-32 module pinout. This ensures shor
 
 Adequate power planes and heatsinking for the WROOM-32 module.  
 
-Multiple decoupling capacitors, including optional large low ESR tantalum (e.g. 330uF 6.3V). This will prevent brownout resets
-when running off power supplies with limited current capacity.
+Multiple decoupling capacitors, including optional large low ESR tantalum (e.g. 330uF 6.3V). This will prevent brownout resets from current spikes when running off power supplies with limited current capacity.
 
 Two voltage regulator options : 
 1. LDO regulator - HT7833 / HT7333 in SOT89 package.  HT7833 has a higher max current and higher dropout voltage - ok for USB power. HT7333 has lower max current and lower dropout voltage - ok for Lipoly battery power if not running at max clock frequency or not using the radio.
