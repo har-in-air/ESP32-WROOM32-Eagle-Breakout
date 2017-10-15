@@ -15,9 +15,9 @@ Adequate power planes and heatsinking for the WROOM-32 module.
 Multiple decoupling capacitors, including optional large low ESR tantalum (e.g. 330uF 6.3V). This will prevent brownout resets
 when running off power supplies with limited current capacity.
 
-Added two voltage regulator options : 
-1. SOT-89 LDO regulator (e.g. HT7833 if running off USB, HT7333 if running off Lipoly battery), OR
-2. SMPS regulator (TPS82140) when efficiency is important and the source voltage can be up to 17V
+Two voltage regulator options : 
+1. LDO regulator (HT7833 if running off USB, HT7333 if running off Lipoly battery), OR
+2. Switching regulator (TPS82140) when efficiency is important and the source voltage can be up to 17V
 
 LED on IO15. Pull-down resistor on IO2. Pull-up resistor on IO0.
 
@@ -33,7 +33,7 @@ Board dimensions : ~ 36mm x 46mm
 
 Resistors are 0603 package. Capacitors are 0603 except for C6 (tantalum, Vishay-C). You can find suitable capacitors (0603 X5R, X7R) on Aliexpress and Ebay e.g. https://mcigicm.aliexpress.com/store/506373?spm=2114.10010108.0.0.15e3fdeesSP1Dd
 
-The most inexpensive pcb prototyping service I've found is pcbway.com : 10 PCBs  (2-layer, < 100mm x 100mm ) for US$5 + shipping. Great quality, but in my experience, it takes about 4-5 weeks from order to delivery with the cheapest shipping option.
+Pcbway.com is an inexpensive pcb prototyping service I've used before : 10 PCBs  (2-layer, < 100mm x 100mm ) for US$5 + shipping. Great quality, but in my experience, it takes about 4-5 weeks from order to delivery with their cheapest shipping option.
 
 ## Assembly notes
 
