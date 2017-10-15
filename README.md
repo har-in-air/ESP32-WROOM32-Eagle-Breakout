@@ -16,7 +16,7 @@ Multiple decoupling capacitors, including optional large low ESR tantalum (e.g. 
 when running off power supplies with limited current capacity.
 
 Two voltage regulator options : 
-1. LDO regulator (HT7833 if running off USB, HT7333 if running off Lipoly battery), OR
+1. LDO regulator - HT7833 / HT7333 in SOT89 package.  HT7833 has a higher max current and higher dropout voltage - ok for USB power. HT7333 has lower max current and lower dropout voltage - ok for Lipoly battery power if not running at max clock frequency or not using the radio.
 2. Switching regulator (TPS82140) when efficiency is important and the source voltage can be up to 17V
 
 LED on IO15. Pull-down resistor on IO2. Pull-up resistor on IO0.
